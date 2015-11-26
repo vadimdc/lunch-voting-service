@@ -28,13 +28,13 @@ gradle bootRun
 
 ### RESTAURANTS API (only ADMIN role access)
 
-**GET    /api/v1/restaurants** - list of all restaurants
-**POST   /api/v1/restaurants** - create restaurant
-**DELETE /api/v1/restaurants** - delete all restaurants
+- **GET    /api/v1/restaurants** - list of all restaurants
+- **POST   /api/v1/restaurants** - create restaurant
+- **DELETE /api/v1/restaurants** - delete all restaurants
 
-**GET    /api/v1/restaurants/{restaurantId}** - get info about restaurant with specified id
-**PUT    /api/v1/restaurants/{restaurantId}** - update restaurant info
-**DELETE /api/v1/restaurants/{restaurantId}** - delete restaurant with specified id
+- **GET    /api/v1/restaurants/{restaurantId}** - get info about restaurant with specified id
+- **PUT    /api/v1/restaurants/{restaurantId}** - update restaurant info
+- **DELETE /api/v1/restaurants/{restaurantId}** - delete restaurant with specified id
 
 ```
     Curl examples:
@@ -51,13 +51,13 @@ gradle bootRun
 
 ### DISHES API (only ADMIN role access)
 
-**GET    /api/v1/dishes** - list of all dishes
-**POST   /api/v1/dishes** - create dish
-**DELETE /api/v1/dishes** - delete all restaurants
+- **GET    /api/v1/dishes** - list of all dishes
+- **POST   /api/v1/dishes** - create dish
+- **DELETE /api/v1/dishes** - delete all restaurants
 
-**GET    /api/v1/dishes/{dishId}** - get info about dish with specified id
-**PUT    /api/v1/dishes/{dishId}** - update dish info
-**DELETE /api/v1/dishes/{dishId}** - delete dish with specified id
+- **GET    /api/v1/dishes/{dishId}** - get info about dish with specified id
+- **PUT    /api/v1/dishes/{dishId}** - update dish info
+- **DELETE /api/v1/dishes/{dishId}** - delete dish with specified id
 
 ```
     Curl examples:
@@ -74,14 +74,14 @@ gradle bootRun
 
 ### MENU ITEMS API (only ADMIN role access)
 
-**GET    /api/v1/menu-items/restaurants/{restaurantId}** - get all menu items for restaurant with specified id
-**POST   /api/v1/menu-items/restaurants/{restaurantId}** - create menu item for restaurant with specified id. If dish is not present in system it is also being created
+- **GET    /api/v1/menu-items/restaurants/{restaurantId}** - get all menu items for restaurant with specified id
+- **POST   /api/v1/menu-items/restaurants/{restaurantId}** - create menu item for restaurant with specified id. If dish is not present in system it is also being created
 
-**GET    /api/v1/menu-items**           - get all menu items
-**DELETE /api/v1/menu-items**           - delete all menu items
+- **GET    /api/v1/menu-items**           - get all menu items
+- **DELETE /api/v1/menu-items**           - delete all menu items
 
-**GET    /api/v1/menu-items/{itemId}**  - get menu item  by specified id
-**DELETE /api/v1/menu-items/{itemId}**  - delete menu item by specified id
+- **GET    /api/v1/menu-items/{itemId}**  - get menu item  by specified id
+- **DELETE /api/v1/menu-items/{itemId}**  - delete menu item by specified id
 
 ```
     Curl examples:
@@ -99,7 +99,7 @@ gradle bootRun
 
 ### MENU API (any user access)
 
-**GET    /api/v1/lunch-menu** - get lunch menu
+- **GET    /api/v1/lunch-menu** - get lunch menu
 
 ```
     Curl examples:
@@ -109,11 +109,11 @@ gradle bootRun
 
 ### VOTING API
 
-**GET    /api/v1/voting**   - get current user vote    - any authorized role access
-**POST   /api/v1/voting**   - vote                     - any authorized role access
-**DELETE /api/v1/voting**   - delete all votes         - ADMIN role access
+- **GET    /api/v1/voting**   - get current user vote    - any authorized role access
+- **POST   /api/v1/voting**   - vote                     - any authorized role access
+- **DELETE /api/v1/voting**   - delete all votes         - ADMIN role access
 
-**GET    /voting/results**	- get all voting results   - any user access
+- **GET    /voting/results**	- get all voting results   - any user access
 
 ```
     Curl examples:
